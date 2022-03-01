@@ -7,6 +7,7 @@ import Upload from './compenentes/Upload';
 import FileList from './compenentes/FileList';
 import { Container , Content, Footer} from './styles.js';
 
+
  
 class App extends Component{
   state = {
