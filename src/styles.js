@@ -16,13 +16,11 @@ export const Content = styled.div`
     max-width: 400px;
     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 35vh;
     background: #fff;
     box-sizing: border-box;
     border-radius: 4px;
     padding: 20px;
     @media (max-width: 500px){
-        margin-bottom: 20vh;
         width:97%;
 }
 
@@ -34,6 +32,7 @@ export const Footer = styled.div`
     align-items: center;
     justify-content:center;
     width:100%;
+    margin-top: 35vh;
     background-color: #3c096c;
     padding: 20px;
     h1{
@@ -42,8 +41,7 @@ export const Footer = styled.div`
         text-align: center;
     }
     @media (max-width: 500px){
-        justify-content:space-between;
-        align-items: space-between;
+        margin-top: 35vh;
         h1{
         color: white;
         font-size: 18px;
