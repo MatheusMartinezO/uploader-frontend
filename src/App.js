@@ -1,4 +1,4 @@
-import React, { Component } from 'react/cjs/react.development';
+import React, { Component } from 'react';
 import { uniqueId } from 'lodash';
 import filesize from 'filesize';
 import api from './services/api'
