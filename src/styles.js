@@ -23,7 +23,7 @@ export const Content = styled.div`
     border-radius: 4px;
     padding: 20px;
     @media screen and (max-width: 500px){
-        top: 35vh;
+        top: 20vh;
         width:97%;
 }
 
