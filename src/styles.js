@@ -8,7 +8,7 @@ export const Container = styled.div`
     flex-direction: column;
    justify-content:space-between;
    align-items:end;
-   @media screen and (max-width: 400px){
+   @media screen and (max-width: 600px){
     height: 89vh;
 }
 
@@ -25,7 +25,7 @@ export const Content = styled.div`
     box-sizing: border-box;
     border-radius: 4px;
     padding: 20px;
-    @media screen and (max-width: 400px){
+    @media screen and (max-width: 600px){
         top: 35vh;
         width:97%;
 }
