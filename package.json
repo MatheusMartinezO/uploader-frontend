@@ -5,7 +5,6 @@
   "dependencies": {
     "axios": "^0.26.0",
     "filesize": "^8.0.7",
-    "jest-styled-components": "^7.0.0",
     "lodash": "^4.17.21",
     "react": "^16.3",
     "react-circular-progressbar": "^2.0.4",
