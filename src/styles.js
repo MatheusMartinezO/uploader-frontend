@@ -6,8 +6,8 @@ export const Container = styled.div`
    -webkit-display: flex;
    display: flex;
     flex-direction: column;
-   justify-content:end;
-   align-items:center;
+   justify-content:space-between;
+   align-items:end;
 
 `
 
@@ -15,8 +15,9 @@ export const Content = styled.div`
 
     width:100%;
     max-width: 400px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 0 auto;
+    position: relative;
+    top: 45vh;
     background: #fff;
     box-sizing: border-box;
     border-radius: 4px;
