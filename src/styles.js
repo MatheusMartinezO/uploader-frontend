@@ -32,7 +32,7 @@ export const Footer = styled.div`
     align-items: center;
     justify-content:center;
     width:100%;
-    margin-top: 35vh;
+    margin-top: 18%;
     background-color: #3c096c;
     padding: 20px;
     h1{
@@ -41,7 +41,7 @@ export const Footer = styled.div`
         text-align: center;
     }
     @media (max-width: 500px){
-        margin-top: 35vh;
+        margin-top: 60%;
         h1{
         color: white;
         font-size: 18px;
