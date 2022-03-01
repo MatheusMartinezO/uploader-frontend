@@ -1,7 +1,7 @@
 import React from 'react'
 import {MdCheckCircle,MdError,MdLink} from 'react-icons/md';
 import {Container,FileInfo,Preview} from './style';
-import { CircularProgressbar } from 'react-circular-progressbar';;
+import { CircularProgressbar } from 'react-circular-progressbar';
 
 
 
@@ -30,7 +30,7 @@ const FileList = ({files , onDelete}) => (
                                value={uploadedFile.progress}
                                />
              ) }
-
+              
              {uploadedFile.url && (
             <a href={uploadedFile.url}
             target="_blank"
