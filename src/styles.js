@@ -34,9 +34,9 @@ export const Footer = styled.div`
     display: flex;
     -webkit-display: flex;
     align-items: end;
+    align-self: flex-end;
     justify-content:center;
     width:100%;
-    margin-top: 18%;
     background-color: #3c096c;
     padding: 20px;
     h1{
@@ -45,7 +45,6 @@ export const Footer = styled.div`
         text-align: center;
     }
     @media screen and (max-width: 500px){
-        margin-top: 60%;
         h1{
         color: white;
         font-size: 18px;
