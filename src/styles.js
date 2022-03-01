@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
 
    height: 100%;
+   -webkit-display: flex;
    display: flex;
     flex-direction: column;
    justify-content:end;
@@ -20,7 +21,7 @@ export const Content = styled.div`
     box-sizing: border-box;
     border-radius: 4px;
     padding: 20px;
-    @media (max-width: 500px){
+    @media screen and (max-width: 500px){
         width:97%;
 }
 
@@ -29,7 +30,8 @@ export const Content = styled.div`
 export const Footer = styled.div`
 
     display: flex;
-    align-items: center;
+    -webkit-display: flex;
+    align-items: end;
     justify-content:center;
     width:100%;
     margin-top: 18%;
@@ -40,7 +42,7 @@ export const Footer = styled.div`
         font-size: 20px;
         text-align: center;
     }
-    @media (max-width: 500px){
+    @media screen and (max-width: 500px){
         margin-top: 60%;
         h1{
         color: white;
