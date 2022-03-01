@@ -2,7 +2,13 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
+  "devDependencies" : {
+   "styled-components": "^3.4.9"
+    },
+    "peerDependencies" : {
+    "styled-components": ">= 3"
+    },
+    "dependencies": {
     "axios": "^0.26.0",
     "filesize": "^8.0.7",
     "jest-styled-components": "^7.0.0",
