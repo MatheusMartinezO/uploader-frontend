@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
 
-   height: 100%;
+   height: 100vh;
    -webkit-display: flex;
    display: flex;
     flex-direction: column;
@@ -23,6 +23,7 @@ export const Content = styled.div`
     border-radius: 4px;
     padding: 20px;
     @media screen and (max-width: 500px){
+        top: 35vh;
         width:97%;
 }
 
