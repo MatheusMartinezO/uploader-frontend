@@ -16,6 +16,7 @@ export const Content = styled.div`
     max-width: 400px;
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 35vh;
     background: #fff;
     box-sizing: border-box;
     border-radius: 4px;
