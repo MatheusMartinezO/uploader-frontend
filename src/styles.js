@@ -1,15 +1,17 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-
+   
    height: 100vh;
-   -webkit-display: flex;
-   display: flex;
+   display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "main"
+    "footer";
     flex-direction: column;
-   justify-content:space-between;
-   align-items:end;
    @media screen and (max-width: 600px){
-    height: 89vh;
+
 }
 
 `
@@ -18,15 +20,18 @@ export const Content = styled.div`
 
     width:100%;
     max-width: 400px;
-    margin: 0 auto;
-    position: relative;
-    top: 45vh;
+    margin: 36vh auto;
+    grid-area: main;
+    justify-self: center;
+    //position: relative;
+   // top: 45vh;
     background: #fff;
     box-sizing: border-box;
     border-radius: 4px;
     padding: 20px;
     @media screen and (max-width: 600px){
-        top: 35vh;
+       // top: 35vh;
+       margin: 31vh auto;
         width:97%;
 }
 
@@ -34,12 +39,11 @@ export const Content = styled.div`
 
 export const Footer = styled.div`
 
-    display: flex;
-    -webkit-display: flex;
-    align-items: end;
-    align-self: flex-end;
-    justify-content:center;
+   
+    grid-area: footer;
+    justify-self: end;
     width:100%;
+    margin-top: 11vh;
     background-color: #3c096c;
     padding: 20px;
     h1{
