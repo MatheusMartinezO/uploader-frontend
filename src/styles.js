@@ -2,25 +2,23 @@ import styled from 'styled-components';
 
 export const IdOuter = styled.div`
 
-    position:relative; width:100%; height:100%;
+    position:relative; width:100%; height: 100%;
     display: flex;
     display: -webkit-box;
     display: -moz-box;
     display: -webkit-flex;
-    align-items: flex-end;
-    justify-content: center;
+    justify-content: space-between;
     flex-flow: row nowrap;
 `
 
 export const Container = styled.div`
    
    display: flex;
+   height: 100%;
     display: -webkit-box;
     display: -moz-box;
     display: -webkit-flex;
-    align-items: flex-end;
-    align-self: flex-end;
-    justify-content: center;
+    justify-content: space-between;
     position:absolute;  left:0; right:0;
     flex-direction: column;
    @media screen and (max-width: 600px){
@@ -37,10 +35,9 @@ export const Content = styled.div`
     margin: 0 auto;
     align-self: center;
     align-items: center;
-    margin-bottom: 40vh;
+    margin-top: 30vh;
     justify-content: center;
-    //position: relative;
-   // top: 45vh;
+    position: relative;
     background: #fff;
     box-sizing: border-box;
     border-radius: 4px;
@@ -61,8 +58,7 @@ export const Footer = styled.div`
     display: -moz-box;
     display: -webkit-flex;
     position:relative; 
-    align-self: flex-end;
-    align-items: end;
+    margin-top: 20vh;
     justify-content: center;
     width:100%;
    // margin-top: 11vh;

@@ -13,7 +13,7 @@ class App extends Component{
   state = {
     uploadedFiles: [],
   };
-  
+
   async componentDidMount() {
      const response = await api.get('posts');
 
