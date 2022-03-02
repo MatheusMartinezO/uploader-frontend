@@ -11,7 +11,7 @@ export const Container = styled.div`
     "footer";
     flex-direction: column;
    @media screen and (max-width: 600px){
-
+    height: 89vh;
 }
 
 `
