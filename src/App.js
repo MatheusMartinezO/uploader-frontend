@@ -5,7 +5,7 @@ import api from './services/api'
 import GlobalStyle from './styles/global';
 import Upload from './compenentes/Upload';
 import FileList from './compenentes/FileList';
-import { Container , Content, Footer} from './styles.js';
+import {IdOuter, Container , Content, Footer} from './styles.js';
 
 
  
@@ -95,6 +95,7 @@ class App extends Component{
   render(){
     const {uploadedFiles} = this.state;
     return (
+      <IdOuter>
       < Container>
       <Content>
         <Upload onUpload={this.handlesUpload}/>
@@ -107,6 +108,7 @@ class App extends Component{
         </Footer>
       <GlobalStyle/>
     </ Container>
+    </IdOuter>
     );
   }
 }
