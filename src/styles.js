@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
    
-   height: 100vh;
+   height: 100%;
    display: grid;
   grid-template-columns: 100%;
   grid-template-rows: auto;
